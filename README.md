@@ -4,8 +4,8 @@
 This is a java program that implements an algorithm problem to schedule delivery from specified pick-up locations and drop points. 
 I have made the following assumption:
 
-'''1. The weight between points have been provided i.e the time or distace between the nodes
-'''2. The upper limit to be twice the weight AD
+    1. The weight between points have been provided i.e the time or distace between the nodes
+    2. The upper limit to be twice the weight AD
 
 ## Approach & Usage
 
@@ -17,15 +17,15 @@ the shortest path falls within the radius AD. If the shortest path falls outside
 
 Since we assume we have the values between the points for example:
 
-'''AB-50 BD-20 DC-35 AC-15 BC-30 AD-17
+    AB-50 BD-20 DC-35 AC-15 BC-30 AD-17
 
 We use these weight values to construct an adjacent matrix. Using the example above we construct the matrix below:
 
-  A   B   C   D
-A 00  50  15  17
-B 50  00  30  20
-C 15  30  00  35
-D 17  20  35  00
+      A   B   C   D
+    A 00  50  15  17
+    B 50  00  30  20
+    C 15  30  00  35
+    D 17  20  35  00
 
 The program will prompt you to input the number of nodes; in this instance 4.
 

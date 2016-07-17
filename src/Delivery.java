@@ -54,7 +54,7 @@ public class Delivery {
 
             stack.pop();
         }
-        System.out.println(shortestDistance);
+        System.out.println("\n"+"value of shortest distance: "+shortestDistance);
         Scanner input = new Scanner(System.in);
         System.out.println("Enter the time/distance A-D");
         int weightAD = input.nextInt();
